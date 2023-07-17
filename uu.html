@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Booking Appointment App</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Booking Appointment App</h1>
+  
+  <form id="appointmentForm">
+    <input type="hidden" id="userId" name="userId">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time" required>
+
+    <button type="submit">Book Appointment</button>
+  </form>
+
+  <div id="userList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
